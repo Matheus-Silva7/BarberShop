@@ -1,6 +1,6 @@
-import React from "react";
 import logo from "../assets/logo.svg";
 import { HeaderContainer, HeaderContent, Nav, NavItem } from "./HeaderStyles";
+import SloganHeader from "./SloganHeader";
 
 function HeaderBarber() {
   return (
@@ -14,6 +14,7 @@ function HeaderBarber() {
           <NavItem href="">Contact</NavItem>
         </Nav>
       </HeaderContent>
+      <SloganHeader/>
     </HeaderContainer>
   );
 }
