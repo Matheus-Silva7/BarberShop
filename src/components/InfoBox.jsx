@@ -1,6 +1,6 @@
 import React from "react";
 
-import { DivInfo } from "./InfoBox";
+import { DivInfo } from "./InfoBoxStyles";
 
 function InfoBox({ icon, info, desc }) {
   return (
