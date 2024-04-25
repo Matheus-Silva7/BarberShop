@@ -1,16 +1,13 @@
 import React from "react";
 
-import { DivInfo } from "./InfoBoxStyles";
+import { DivInfo, IconInfo, InfoTitle, DescTitle } from "./InfoBoxStyles";
 
 function InfoBox({ icon, info, desc }) {
   return (
     <DivInfo>
-      <div>
-        <h2>{icon}</h2>
-        <h3>{info}</h3>
-        <hr />
-        <h4>{desc}</h4>
-      </div>
+        <IconInfo>{icon}</IconInfo>
+        <InfoTitle>{info}</InfoTitle>
+        <DescTitle>{desc}</DescTitle>
     </DivInfo>
   );
 }

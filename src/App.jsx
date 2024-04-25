@@ -1,6 +1,8 @@
+import { ContainerInfo } from "./AppStyles";
 import HeaderBarber from "./components/HeaderBarber";
 import InfoBox from "./components/InfoBox";
 import { FaMapMarkerAlt, FaPhoneAlt, FaClock } from "react-icons/fa";
+
 
 /* <FaMapMarkerAlt />, <FaPhoneAlt /> <FaClock /> */
 
@@ -15,7 +17,7 @@ const listInfo = [
     id: 2,
     iconInfo: <FaPhoneAlt />,
     info: "phone",
-    desc: "+62(123)-456-7890,+62(123)-456-7890",
+    desc: "+62(123)-456-7890, +62(123)-456-7890",
   },
   {
     id: 3,
@@ -29,9 +31,11 @@ function App() {
   return (
     <>
       <HeaderBarber />
+      <ContainerInfo>
       {listInfo.map(({id, iconInfo, info, desc})=>(
-           <InfoBox key={id} icon={iconInfo} info={info} desc={desc} />
+        <InfoBox key={id} icon={iconInfo} info={info} desc={desc} />
       ))}
+      </ContainerInfo>
    
     </>
   );
