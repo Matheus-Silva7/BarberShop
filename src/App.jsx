@@ -2,6 +2,7 @@ import { ContainerInfo } from "./AppStyles";
 import AboutUs from "./components/about/AboutUs";
 import HeaderBarber from "./components/header/HeaderBarber";
 import InfoBox from "./components/header/InfoBox";
+import Services from "./components/servicesBarber/Services";
 import { FaMapMarkerAlt, FaPhoneAlt, FaClock } from "react-icons/fa";
 
 
@@ -38,6 +39,7 @@ function App() {
       ))}
       </ContainerInfo>
       <AboutUs/>
+      <Services/>
     </>
   );
 }

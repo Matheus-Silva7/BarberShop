@@ -5,7 +5,7 @@ export const ContainerInfo = styled.div`
  justify-content: space-around;
   padding: 30px;
   background-color: #FFF;
-  max-width: 1000px;
+  max-width: 1200px;
   margin: 30px auto;
   border-radius: 10px;
 `;

@@ -3,15 +3,15 @@ import styled from "styled-components";
 export const SectionAbout = styled.section`
   display: flex;
   align-items: center;
- 
-  padding: 50px 40px;
+  justify-content: space-evenly;
+  padding: 30px 40px;
 `;
 
 export const DivTextAbout = styled.div`
   display: flex;
   flex-direction: column;
   justify-content: center;
-  height: 70vh;
+  height: 75vh;
   padding:20px;
   gap: 50px;
 `;
@@ -24,7 +24,8 @@ export const TitleAbout = styled.h2`
 `;
 
 export const DescAbout = styled.p`
-  font-size: 18px;
+  font-size: 22px;
+  max-width: 50ch;
 `;
 
 export const DivInfos = styled.div`
