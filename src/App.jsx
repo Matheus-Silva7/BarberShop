@@ -2,11 +2,8 @@ import { ContainerInfo } from "./AppStyles";
 import AboutUs from "./components/about/AboutUs";
 import HeaderBarber from "./components/header/HeaderBarber";
 import InfoBox from "./components/header/InfoBox";
-import Services from "./components/servicesBarber/Services";
 import { FaMapMarkerAlt, FaPhoneAlt, FaClock } from "react-icons/fa";
-
-
-/* <FaMapMarkerAlt />, <FaPhoneAlt /> <FaClock /> */
+import Services from "./components/servicesBarber/Services";
 
 const listInfo = [
   {
@@ -29,17 +26,18 @@ const listInfo = [
   },
 ];
 
+
 function App() {
   return (
     <>
       <HeaderBarber />
       <ContainerInfo>
-      {listInfo.map(({id, iconInfo, info, desc})=>(
-        <InfoBox key={id} icon={iconInfo} info={info} desc={desc} />
-      ))}
+        {listInfo.map(({ id, iconInfo, info, desc }) => (
+          <InfoBox key={id} icon={iconInfo} info={info} desc={desc} />
+        ))}
       </ContainerInfo>
-      <AboutUs/>
-      <Services/>
+      <AboutUs />
+      <Services/>    
     </>
   );
 }

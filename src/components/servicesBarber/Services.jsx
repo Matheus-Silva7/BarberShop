@@ -1,4 +1,50 @@
-import {SectionService, H2Service, Pservice, DivServices, Service} from "./ServicesStyles"
+import ServicesItens from "./ServicesItens";
+import {SectionService, H2Service, Pservice, DivServices} from "./ServicesStyles"
+
+const listServices = [
+  {
+    id: 1,
+    titleService: "Adult haircut",
+    descService:
+      "Nulla egestas sapien integer mi fermentum tellus tristique consequatolm pulvinar sagittis",
+    priceService: "$39 USD",
+  },
+  {
+    id: 1,
+    titleService: "Adult haircut",
+    descService:
+      "Nulla egestas sapien integer mi fermentum tellus tristique consequatolm pulvinar sagittis",
+    priceService: "$39 USD",
+  },
+  {
+    id: 1,
+    titleService: "Adult haircut",
+    descService:
+      "Nulla egestas sapien integer mi fermentum tellus tristique consequatolm pulvinar sagittis",
+    priceService: "$39 USD",
+  },
+  {
+    id: 1,
+    titleService: "Adult haircut",
+    descService:
+      "Nulla egestas sapien integer mi fermentum tellus tristique consequatolm pulvinar sagittis",
+    priceService: "$39 USD",
+  },
+  {
+    id: 1,
+    titleService: "Adult haircut",
+    descService:
+      "Nulla egestas sapien integer mi fermentum tellus tristique consequatolm pulvinar sagittis",
+    priceService: "$39 USD",
+  },
+  {
+    id: 1,
+    titleService: "Adult haircut",
+    descService:
+      "Nulla egestas sapien integer mi fermentum tellus tristique consequatolm pulvinar sagittis",
+    priceService: "$39 USD",
+  },
+];
 
 function Services() {
   return (
@@ -10,54 +56,9 @@ function Services() {
         prci eu magna in senectus sit eget justo eget.
       </Pservice>
       <DivServices>
-        <Service>
-            <h6>icon</h6>
-            <div>
-                <h3>Adult haircut</h3>
-                <p>Nulla egestas sapien integer mi fermentum tellus tristique consequatolm pulvinar sagittis</p>
-                <h4>$39 USD</h4>
-            </div>
-        </Service>
-        <Service>
-            <h6>icon</h6>
-            <div>
-                <h3>Adult haircut</h3>
-                <p>Nulla egestas sapien integer mi fermentum tellus tristique consequatolm pulvinar sagittis</p>
-                <h4>$39 USD</h4>
-            </div>
-        </Service>
-        <Service>
-            <h6>icon</h6>
-            <div>
-                <h3>Adult haircut</h3>
-                <p>Nulla egestas sapien integer mi fermentum tellus tristique consequatolm pulvinar sagittis</p>
-                <h4>$39 USD</h4>
-            </div>
-        </Service>
-        <Service>
-            <h6>icon</h6>
-            <div>
-                <h3>Adult haircut</h3>
-                <p>Nulla egestas sapien integer mi fermentum tellus tristique consequatolm pulvinar sagittis</p>
-                <h4>$39 USD</h4>
-            </div>
-        </Service>
-        <Service>
-            <h6>icon</h6>
-            <div>
-                <h3>Adult haircut</h3>
-                <p>Nulla egestas sapien integer mi fermentum tellus tristique consequatolm pulvinar sagittis</p>
-                <h4>$39 USD</h4>
-            </div>
-        </Service>
-        <Service>
-            <h6>icon</h6>
-            <div>
-                <h3>Adult haircut</h3>
-                <p>Nulla egestas sapien integer mi fermentum tellus tristique consequatolm pulvinar sagittis</p>
-                <h4>$39 USD</h4>
-            </div>
-        </Service>
+      {listServices.map(({ id, titleService, descService, priceService }) => (
+        <ServicesItens key={id} title={titleService} desc={descService} price={priceService} />
+      ))}
       </DivServices>
     </SectionService>
   );
