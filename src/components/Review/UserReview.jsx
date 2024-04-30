@@ -1,5 +1,5 @@
-import UserImage from "../../assets/user-image.png"
-import Stars from "../../assets/stars.png"
+import UserImage from "../../assets/img/img-review/user-image.png"
+import Stars from "../../assets/img/img-review/stars.png"
 import { DivCard } from "./ReviewStyles"
 
 function UserReview() {

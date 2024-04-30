@@ -8,6 +8,8 @@ import CallAction from "./components/CallAction/CallAction";
 import WhyChoose from "./components/whyChoose/WhyChoose";
 import Review from "./components/Review/Review";
 import Contact from "./components/Contact/Contact";
+import MapBarber from "./components/map/MapBarber";
+import Footer from "./components/footer/Footer";
 
 const listInfo = [
   {
@@ -46,6 +48,8 @@ function App() {
       <WhyChoose/>
       <Review/>
       <Contact/>
+      <MapBarber/>
+      <Footer/>
     </>
   );
 }

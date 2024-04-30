@@ -1,5 +1,5 @@
-import TripadIcon from "../../assets/tripadvisor-icon.png"
-import Stars from "../../assets/stars.png"
+import TripadIcon from "../../assets/img/img-review/tripadvisor-icon.png"
+import Stars from "../../assets/img/img-review/stars.png"
 import { DivCard } from "./ReviewStyles"
 
 

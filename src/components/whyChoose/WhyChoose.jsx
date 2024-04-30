@@ -1,8 +1,8 @@
 import { SectionWhy, ContainerCard } from "./WhychooseStyles"
 import WhyCard from "./WhyCard"
-import LicensedIcon from "../../assets/licensed-icon.png"
-import MasterIcon from "../../assets/masters-icon.png"
-import TrustedIcon from "../../assets/trusted-icon.png"
+import LicensedIcon from "../../assets/img/icons-why/licensed-icon.png"
+import MasterIcon from "../../assets/img/icons-why/masters-icon.png"
+import TrustedIcon from "../../assets/img/icons-why/trusted-icon.png"
 
 const listWhyChoose = [
   {

@@ -1,5 +1,5 @@
-import GoogleIcon from "../../assets/google-icon.png"
-import Stars from "../../assets/stars.png"
+import GoogleIcon from "../../assets/img/img-review/google-icon.png"
+import Stars from "../../assets/img/img-review/stars.png"
 import { DivCard } from "./ReviewStyles"
 
 

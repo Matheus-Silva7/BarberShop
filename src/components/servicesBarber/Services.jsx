@@ -1,11 +1,11 @@
 import ServicesItens from "./ServicesItens";
 import {SectionService, DivServices} from "./ServicesStyles";
-import adultHaircut from "../../assets/adult-haircut.png"
-import kidsHaircut from "../../assets/kids-haircut.png"
-import beardTrim from "../../assets/beard-trim.png"
-import neckShave from "../../assets/neck-shave.png"
-import scalpMoisturizing from "../../assets/scalp-moisturizing.png"
-import beardGrooming from "../../assets/bearb-grooming.png"
+import adultHaircut from "../../assets/img/icons-services/adult-haircut.png"
+import kidsHaircut from "../../assets/img/icons-services/kids-haircut.png"
+import beardTrim from "../../assets/img/icons-services/beard-trim.png"
+import neckShave from "../../assets/img/icons-services/neck-shave.png"
+import scalpMoisturizing from "../../assets/img/icons-services/scalp-moisturizing.png"
+import beardGrooming from "../../assets/img/icons-services/bearb-grooming.png"
 import ButtonMain from "../buttons/ButtonMain"
 
 const listServices = [

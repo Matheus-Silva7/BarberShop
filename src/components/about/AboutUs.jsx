@@ -1,5 +1,5 @@
 import React from "react";
-import imgThumbnail from "../../assets/thumbnail.jpg";
+import imgThumbnail from "../../assets/img/backgrounds/thumbnail.jpg";
 import { SectionAbout, DivTextAbout, TitleAbout, DescAbout, DivInfos, H3Info, H4Info, SpanText } from "./AboutStyles";
 
 function AboutUs() {
