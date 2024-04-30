@@ -5,7 +5,7 @@ export const ButtonM = styled.a`
   color: #000;
   padding: 20px; 
   font-size: 18px;
-  font-weight: 700;
+  font-weight: 800;
   text-transform: uppercase;
   cursor: pointer;
 `
@@ -16,7 +16,7 @@ export const ButtonS = styled.a`
   color: #FFF;
   padding: 20px; 
   font-size: 18px;
-  font-weight: 700;
+  font-weight: 800;
   text-transform: uppercase;
   cursor: pointer;
 `;

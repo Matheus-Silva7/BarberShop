@@ -4,6 +4,10 @@ import HeaderBarber from "./components/header/HeaderBarber";
 import InfoBox from "./components/header/InfoBox";
 import { FaMapMarkerAlt, FaPhoneAlt, FaClock } from "react-icons/fa";
 import Services from "./components/servicesBarber/Services";
+import CallAction from "./components/CallAction/CallAction";
+import WhyChoose from "./components/whyChoose/WhyChoose";
+import Review from "./components/Review/Review";
+import Contact from "./components/Contact/Contact";
 
 const listInfo = [
   {
@@ -37,7 +41,11 @@ function App() {
         ))}
       </ContainerInfo>
       <AboutUs />
-      <Services/>    
+      <Services/>  
+      <CallAction/>  
+      <WhyChoose/>
+      <Review/>
+      <Contact/>
     </>
   );
 }

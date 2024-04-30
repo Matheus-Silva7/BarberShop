@@ -1,5 +1,5 @@
 import logo from "../../assets/logo.svg";
-import { HeaderContainer, HeaderContent, Nav, NavItem } from "./HeaderStyles";
+import { HeaderContainer, HeaderContent, Nav } from "./HeaderStyles";
 import SloganHeader from "./SloganHeader";
 
 function HeaderBarber() {
@@ -8,10 +8,10 @@ function HeaderBarber() {
       <HeaderContent>
         <img src={logo} alt="" />
         <Nav>
-          <NavItem href="#about-us">About Us</NavItem>
-          <NavItem href="">Services</NavItem>
-          <NavItem href="">Feedbacks</NavItem>
-          <NavItem href="">Contact</NavItem>
+          <a href="#about-us">About Us</a>
+          <a href="">Services</a>
+          <a href="">Feedbacks</a>
+          <a href="">Contact</a>
         </Nav>
       </HeaderContent>
       <SloganHeader/>

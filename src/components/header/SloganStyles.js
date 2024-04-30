@@ -9,18 +9,19 @@ export const DivSlogan = styled.div`
   flex-direction: column;
   align-items: center;
   gap: 40px;
-`
 
-export const TitleSlogan = styled.h1`
-  font-size: 72px;
+  h1{
+    font-size: 72px;
   text-transform: uppercase;
   max-width: 25ch;
   font-weight: 900;
+
+  p{
+    font-size: 24px;
+  }
+  }
 `
 
-export const SubtitleSlogan = styled.p`
-font-size: 24px;
-`
 
 export const DivButtons = styled.div`
 display: flex;

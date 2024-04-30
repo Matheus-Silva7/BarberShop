@@ -1,5 +1,5 @@
 import styled from "styled-components";
-import backgroundImg from "../../assets/background-header.svg"
+import backgroundImg from "../../assets/background-header.jpg"
 
 export const HeaderContainer = styled.header`
   background: url(${backgroundImg});
@@ -10,6 +10,7 @@ export const HeaderContainer = styled.header`
   display: flex;
   flex-direction: column;
   justify-content: space-between;
+
 
 `;
 
@@ -23,11 +24,12 @@ export const HeaderContent = styled.div`
 export const Nav = styled.nav`
   display: flex;
   gap: 25px;
-`;
 
-export const NavItem = styled.a`
-  text-decoration: none;
+  a{
+    text-decoration: none;
   font-size: 24px;
   color: #FFFFFF;
   font-family: "Work Sans", sans-serif;
+  }
+ 
 `;

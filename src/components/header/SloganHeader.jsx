@@ -1,4 +1,4 @@
-import { DivSlogan, TitleSlogan, SubtitleSlogan, DivButtons } from "./SloganStyles";
+import { DivSlogan, DivButtons } from "./SloganStyles";
 import ButtonMain from "../buttons/ButtonMain";
 import ButtonSecond from "../buttons/ButtonSecond";
 
@@ -6,8 +6,8 @@ import ButtonSecond from "../buttons/ButtonSecond";
 function SloganHeader() {
   return (
     <DivSlogan>
-      <TitleSlogan>The ultimate convenience for busy people</TitleSlogan>
-      <SubtitleSlogan>Experience the Convenience of In-Home Barber Services</SubtitleSlogan>
+      <h1>The ultimate convenience for busy people</h1>
+      <p>Experience the Convenience of In-Home Barber Services</p>
       <DivButtons>
       <ButtonMain/>
       <ButtonSecond/>
