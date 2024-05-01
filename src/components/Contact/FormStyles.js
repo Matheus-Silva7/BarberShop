@@ -29,10 +29,12 @@ export const FormC = styled.form`
     border-color: #000;
     border-bottom: solid 2px;
     transition: 0.15s linear;
+    font-family: sans-serif;
   }
   textarea{
     height: 100px;
     resize: none; 
+    font-family: sans-serif;
   }
   input:focus, 
   textarea:focus{

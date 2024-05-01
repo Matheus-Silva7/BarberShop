@@ -30,7 +30,7 @@ const listWhyChoose = [
 
 function WhyChoose() {
   return (
-    <SectionWhy>
+    <SectionWhy id="feedback" className="hidden">
       <h2>why choose us</h2>
       <p>
         Nulla egestas sapien integer mi fermentum tellus tristique consequat pulvinar sagittis adipiscing egestas 

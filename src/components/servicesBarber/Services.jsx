@@ -61,7 +61,7 @@ const listServices = [
 
 function Services() {
   return (
-    <SectionService>
+    <SectionService id="services" className="hidden">
       <h2>Browse our services</h2>
       <p>
         Nulla egestas sapien integer mi fermentum tellus tristique consequat

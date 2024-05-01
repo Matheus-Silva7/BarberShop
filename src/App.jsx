@@ -36,7 +36,7 @@ const listInfo = [
 function App() {
   return (
     <>
-      <HeaderBarber />
+      <HeaderBarber/>
       <ContainerInfo>
         {listInfo.map(({ id, iconInfo, info, desc }) => (
           <InfoBox key={id} icon={iconInfo} info={info} desc={desc} />

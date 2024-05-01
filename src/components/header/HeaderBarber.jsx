@@ -9,9 +9,9 @@ function HeaderBarber() {
         <img src={logo} alt="" />
         <Nav>
           <a href="#about-us">About Us</a>
-          <a href="">Services</a>
-          <a href="">Feedbacks</a>
-          <a href="">Contact</a>
+          <a href="#services">Services</a>
+          <a href="#feedback">Feedbacks</a>
+          <a href="#contact">Contact</a>
         </Nav>
       </HeaderContent>
       <SloganHeader/>

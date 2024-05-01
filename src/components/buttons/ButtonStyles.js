@@ -8,7 +8,17 @@ export const ButtonM = styled.a`
   font-weight: 800;
   text-transform: uppercase;
   cursor: pointer;
-`
+
+  &:hover{
+    background-color: #A7957B;
+    transition: 1s;
+  }
+
+  &:active{
+    background-color:#c5b194;
+    transition: 0.3s;
+  }
+  `
 
 export const ButtonS = styled.a`
   background-color: transparent;
@@ -19,4 +29,15 @@ export const ButtonS = styled.a`
   font-weight: 800;
   text-transform: uppercase;
   cursor: pointer;
-`;
+
+  &:hover{
+    background-color: #ffffff46;
+    transition: 1s;
+  }
+  
+  &:active{
+    background-color:#ffffff6c;
+    transition: 0.3s;
+  }
+
+  `;

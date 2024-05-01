@@ -9,6 +9,7 @@ export const SectionContact = styled.section`
   display: flex;
   justify-content: space-around;
   align-items: center;
+  padding: 30px;
 `;
 
 export const DivContactText = styled.div`
