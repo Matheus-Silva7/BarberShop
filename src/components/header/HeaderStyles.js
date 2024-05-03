@@ -11,7 +11,6 @@ export const HeaderContainer = styled.header`
   flex-direction: column;
   justify-content: space-between;
 
-
 `;
 
 export const HeaderContent = styled.div`
@@ -47,5 +46,9 @@ export const Nav = styled.nav`
 a:hover::after {
   width: 100%;
 }
+
+@media (max-width: 768px){
+    display: none;
+  }
 
 `;

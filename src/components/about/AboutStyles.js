@@ -5,6 +5,10 @@ export const SectionAbout = styled.section`
   align-items: center;
   justify-content: space-evenly;
   padding: 30px 40px;
+
+  @media (max-width: 768px){
+    flex-direction: column;
+  }
 `;
 
 export const DivTextAbout = styled.div`
@@ -14,38 +18,41 @@ export const DivTextAbout = styled.div`
   height: 75vh;
   padding:20px;
   gap: 50px;
-`;
 
-export const TitleAbout = styled.h2`
-  font-size: 48px;
+  h2{
+    font-size: 48px;
   font-weight: 800;
   text-transform: uppercase;
   max-width: 15ch;
+  }
+
+  p{
+    font-size: 22px;
+  max-width: 50ch;
+  }
 `;
 
-export const DescAbout = styled.p`
-  font-size: 22px;
-  max-width: 50ch;
-`;
+
 
 export const DivInfos = styled.div`
   display: flex;
  justify-content: space-between; 
  width: 80%;
-`
 
-export const H3Info = styled.h3`
-    font-size: 48px;
-    font-weight: 800;
-`
+ h3{
+  font-size: 48px;
+  font-weight: 800;
+ }
 
-export const H4Info = styled.h3`
-    font-size: 20px;
+h4{
+  font-size: 20px;
     font-weight: 800;
     text-transform: uppercase;
     max-width: 17ch;
+}
+
+span{
+  color: #DEC7A6;
+}
 `
 
-export const SpanText = styled.span`
-color: #DEC7A6;
-`

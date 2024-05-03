@@ -15,10 +15,15 @@ export const DivSlogan = styled.div`
   text-transform: uppercase;
   max-width: 25ch;
   font-weight: 900;
+}
+p{
+  font-size: 24px;
+}
 
-  p{
-    font-size: 24px;
-  }
+@media (max-width: 768px){
+    h1{
+      font-size: 55px;
+    }
   }
 `
 

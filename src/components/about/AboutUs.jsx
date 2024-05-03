@@ -32,20 +32,20 @@ function AboutUs() {
   return (
     <SectionAbout id="about-us" /* ref={el} */>
       <DivTextAbout className="about-item item">
-        <TitleAbout>Your personal barber service at your home</TitleAbout>
-        <DescAbout>
+        <h2>Your personal barber service at your home</h2>
+        <p>
           Nulla egestas sapien integer mi fermentum tellus tristique consequat
           pulvinar sagittis adipiscing egestas purus et mi tempus semper id vel
           prci eu magna in senectus sit eget justo.
-        </DescAbout>
+        </p>
         <DivInfos>
           <div>
-            <H3Info>99 <SpanText>%</SpanText></H3Info>
-            <H4Info>Customer Satisfaction</H4Info>
+            <h3>99 <SpanText>%</SpanText></h3>
+            <h4>Customer Satisfaction</h4>
           </div>
           <div>
-            <H3Info>10 <SpanText>+</SpanText></H3Info>
-            <H4Info>years of experience</H4Info>
+            <h3>10 <SpanText>+</SpanText></h3>
+            <h4>years of experience</h4>
           </div>
         </DivInfos>
       </DivTextAbout>
