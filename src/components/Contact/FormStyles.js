@@ -41,4 +41,8 @@ export const FormC = styled.form`
     outline: none;
     border-color: #DEC7A6;
   }
+
+  @media (max-width: 820px){
+  width: 100%;
+  }
 `;

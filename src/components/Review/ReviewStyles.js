@@ -5,6 +5,14 @@ display: flex;
 justify-content: space-evenly;
 align-items: center;
 margin: 70px 40px;
+@media (max-width:820px){
+    gap: 15px;
+  }
+
+  @media (max-width:450px){
+    flex-direction: column;
+  }
+
 `
 
 export const DivCard = styled.div`
@@ -49,5 +57,17 @@ export const DivCard = styled.div`
   .user-name{
     font-size: 16px;
     text-transform: uppercase;
+  }
+
+  @media (max-width: 820px){
+    h2{
+      font-size: 70px;
+    }
+    h3{
+      font-size: 22px;
+    }
+    p{
+      font-size: 18px;
+    }
   }
 `;

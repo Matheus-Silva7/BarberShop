@@ -4,7 +4,7 @@ import { DivInfo  } from "./InfoBoxStyles";
 
 function InfoBox({ icon, info, desc }) {
   return (
-    <DivInfo>
+    <DivInfo >
         <h2>{icon}</h2>
         <h3>{info}</h3>
         <h4>{desc}</h4>

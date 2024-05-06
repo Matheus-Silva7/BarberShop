@@ -9,7 +9,13 @@ export const SectionContact = styled.section`
   display: flex;
   justify-content: space-around;
   align-items: center;
-  padding: 30px;
+  padding: 50px;
+
+  @media (max-width: 820px){
+   height: auto;
+   flex-direction: column;
+   gap: 20px;
+  }
 `;
 
 export const DivContactText = styled.div`
@@ -30,6 +36,10 @@ export const DivContactText = styled.div`
   p{
     font-size: 16px;
     max-width: 50ch;
+  }
+
+  @media (max-width: 820px){
+  width: 100%
   }
 `
 export const DivInfoContact = styled.div`

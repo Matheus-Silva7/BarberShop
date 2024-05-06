@@ -5,7 +5,7 @@ import UserReview from "./UserReview"
 
 function Review() {
   return (
-    <SectionReview className="hidden">
+    <SectionReview>
       <GoogleCard/>
       <UserReview/>
       <ReviewCard/>

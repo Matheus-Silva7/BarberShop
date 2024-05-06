@@ -1,6 +1,6 @@
 /* import { useLayoutEffect, useRef } from "react"; */
 import imgThumbnail from "../../assets/img/backgrounds/thumbnail.jpg";
-import { SectionAbout, DivTextAbout, TitleAbout, DescAbout, DivInfos, H3Info, H4Info, SpanText } from "./AboutStyles";
+import { SectionAbout, DivTextAbout, DivInfos } from "./AboutStyles";
 /* import { gsap } from "gsap";
 import { ScrollTrigger } from "gsap/ScrollTrigger"; */
 
@@ -30,7 +30,7 @@ function AboutUs() {
   }, []); */
 
   return (
-    <SectionAbout id="about-us" /* ref={el} */>
+    <SectionAbout id="about-us"/* ref={el} */>
       <DivTextAbout className="about-item item">
         <h2>Your personal barber service at your home</h2>
         <p>
@@ -40,11 +40,11 @@ function AboutUs() {
         </p>
         <DivInfos>
           <div>
-            <h3>99 <SpanText>%</SpanText></h3>
+            <h3>99 <span>%</span></h3>
             <h4>Customer Satisfaction</h4>
           </div>
           <div>
-            <h3>10 <SpanText>+</SpanText></h3>
+            <h3>10 <span>+</span></h3>
             <h4>years of experience</h4>
           </div>
         </DivInfos>

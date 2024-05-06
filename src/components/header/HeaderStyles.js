@@ -11,6 +11,10 @@ export const HeaderContainer = styled.header`
   flex-direction: column;
   justify-content: space-between;
 
+  @media (max-width: 820px){
+   height: auto;
+  }
+
 `;
 
 export const HeaderContent = styled.div`
@@ -18,6 +22,23 @@ export const HeaderContent = styled.div`
   align-items: center;
   justify-content: space-between;
   padding: 25px;
+
+  .menu-mobile{
+  display: none;
+  }
+
+  @media (max-width: 820px){
+    .menu-mobile{
+    display: block;
+    }
+
+    .menu-mobile .icon{
+      font-size: 60px;
+      color: #FFF;
+    }
+
+  }
+
 `
 
 export const Nav = styled.nav`
@@ -47,8 +68,9 @@ a:hover::after {
   width: 100%;
 }
 
-@media (max-width: 768px){
+@media (max-width: 820px){
     display: none;
+
   }
 
 `;

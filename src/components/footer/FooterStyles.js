@@ -21,4 +21,11 @@ export const FooterB = styled.footer`
     list-style-type: none;
     font-size: 16px;
   }
+
+  @media (max-width: 450px){
+    flex-direction: column;
+    ul{
+      padding: 0;
+    }
+  }
 `;

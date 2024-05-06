@@ -15,9 +15,15 @@ export const SectionWhy = styled.section`
   }
 
   p{
-    font-size: 16px;
+    font-size: 18px;
     max-width: 60ch;
     text-align: center;
+  }
+
+  @media (max-width: 450px){
+    h2{
+      font-size: 45px;
+    }
   }
 `;
 
@@ -26,7 +32,14 @@ export const ContainerCard = styled.div`
   text-align: center;
   width: 100%;
   justify-content: space-evenly;
-  margin:50px;
+  margin:50px 0;
+  @media (max-width: 820px){
+   gap: 40px;
+  }
+  @media (max-width: 450px){
+    flex-direction: column;
+    align-items: center;
+  }
 `
 
 export const CardDiv = styled.div`
@@ -57,4 +70,5 @@ h3{
 
  max-width: 34ch;
 
+ 
 `

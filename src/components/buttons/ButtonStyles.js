@@ -18,6 +18,11 @@ export const ButtonM = styled.a`
     background-color:#c5b194;
     transition: 0.3s;
   }
+
+  @media (max-width:450px){
+   padding: 15px;
+   font-size: 15px;
+  }
   `
 
 export const ButtonS = styled.a`
@@ -39,5 +44,8 @@ export const ButtonS = styled.a`
     background-color:#ffffff6c;
     transition: 0.3s;
   }
-
+  @media (max-width:450px){
+   padding: 15px;
+   font-size: 15px;
+  }
   `;

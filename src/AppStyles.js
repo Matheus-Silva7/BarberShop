@@ -1,5 +1,6 @@
 import styled from 'styled-components';
 
+
 export const ContainerInfo = styled.div`
   display: flex;
  justify-content: space-around;
@@ -9,7 +10,12 @@ export const ContainerInfo = styled.div`
   margin: 30px auto;
   border-radius: 10px;
 
-  @media (max-width: 768px){
+  @media (max-width: 820px){
     max-width: 680px;
+  }
+
+  @media (max-width: 450px){
+    max-width: 350px;
+    gap: 8px;
   }
 `;

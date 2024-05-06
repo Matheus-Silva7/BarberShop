@@ -22,4 +22,14 @@ export const DivContent = styled.div`
   max-width: 25ch;
   text-align: center;
   }
+
+  @media (max-width: 820px){
+    height: 50vh;
+  }
+
+  @media (max-width: 820px){
+  h2{
+    font-size: 35px;
+  }
+  }
 `;

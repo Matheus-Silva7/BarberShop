@@ -20,10 +20,27 @@ p{
   font-size: 24px;
 }
 
-@media (max-width: 768px){
+@media (max-width:1024px){
     h1{
       font-size: 55px;
     }
+  }
+
+  @media (max-width: 820px){
+   h1{
+    font-size: 40px;
+   }
+  }
+
+  @media (max-width: 450px){
+   h1{
+    font-size: 30px;
+    padding: 5px;
+   }
+
+   p{
+   display: none;
+   }
   }
 `
 

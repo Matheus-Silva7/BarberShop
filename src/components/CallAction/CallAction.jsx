@@ -4,7 +4,7 @@ import { DivContent } from "./CallStyles"
 
 function CallAction() {
   return (
-    <DivContent className="hidden">
+    <DivContent>
       <h2>Experience the luxury of concierge barber services at your home</h2>
       <ButtonMain/>
     </DivContent>
