@@ -20,9 +20,9 @@ export const ButtonM = styled.a`
   }
 
   @media (max-width:450px){
-   padding: 15px;
-   font-size: 15px;
-  }
+    padding: 16px;
+    font-size: 12px;
+   }
   `
 
 export const ButtonS = styled.a`
@@ -45,7 +45,7 @@ export const ButtonS = styled.a`
     transition: 0.3s;
   }
   @media (max-width:450px){
-   padding: 15px;
-   font-size: 15px;
+   padding: 16px;
+   font-size: 12px;
   }
   `;

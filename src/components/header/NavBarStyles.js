@@ -1,31 +1,43 @@
 import styled from "styled-components";
 
 export const HeaderContainer = styled.header`
-  background-color: #0000008f;
+  background-color: #000;
   height: auto;
   width: 100%;
-  position: absolute;
+  z-index: 3;
 `;
 
 export const HeaderContent = styled.div`
   display: flex;
   align-items: center;
   justify-content: space-between;
-  padding: 10px;
-
 
   .menu-mobile {
     display: none;
   }
 
+  .logo {
+    width: 8rem;
+    padding: 10px;
+    z-index:10;
+  }
+
   @media (max-width: 820px) {
     .menu-mobile {
       display: block;
+      z-index:10;
     }
 
     .menu-mobile .icon {
       font-size: 60px;
       color: #fff;
+      
+    }
+  }
+
+  @media (max-width: 500px) {
+    .logo {
+      width: 6rem;
     }
   }
 `;
@@ -58,6 +70,20 @@ export const Nav = styled.nav`
   }
 
   @media (max-width: 820px) {
-    display: none;
+    display: flex;
+    height: 60vh;
+    width: 100%;
+    top: -100%;
+    position: absolute;
+    background: #000000e6;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    z-index: 2;
+    transition: 1s;
+
+    .active{
+      top:0;
+    }
   }
 `;

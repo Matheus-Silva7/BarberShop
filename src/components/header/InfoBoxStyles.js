@@ -45,7 +45,7 @@ export const DivInfo = styled.div`
     font-size: 18px;
   }
     h4{
-      font-size: 13px;
+      font-size: 12px;
     }
   }
 `;
