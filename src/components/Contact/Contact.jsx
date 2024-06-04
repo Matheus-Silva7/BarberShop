@@ -5,7 +5,7 @@ import FormContact from "./FormContact";
 
 function Contact() {
   return (
-    <SectionContact>
+    <SectionContact id="contact">
       <DivContactText>
         <h2>make an <br/> appointment</h2>
         <p>Nulla egestas sapien integer mi fermentum tellus tristique consequat pulvinar sagittis adipiscing egestas purus et mi tempus semper id vel prci eu magna in senectus sit eget justo</p>

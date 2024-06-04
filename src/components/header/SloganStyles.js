@@ -1,51 +1,75 @@
-import styled from 'styled-components';
+import styled from "styled-components";
 
 export const DivSlogan = styled.div`
-  color:#FFF;
-  margin: 20px auto;
-  padding: 30px 0;
-  text-align: center;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  gap: 40px;
+  height: 100%;
+  width: 100%;
 
-  h1{
-    font-size: 72px;
-  text-transform: uppercase;
-  max-width: 25ch;
-  font-weight: 900;
-}
-p{
-  font-size: 24px;
-}
+  .into-img {
+    width: 100%;
+    height: 80vh;
+    background-size: cover;
+    background-position: center;
+    object-fit: cover;
+  }
 
-@media (max-width:1024px){
-    h1{
-      font-size: 55px;
+  .content {
+    position: absolute;
+    transform: translate(-50%, -50%);
+    top: 50%;
+    left: 50%;
+    z-index: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 2rem;
+    width: 100%;
+  }
+
+  .content .title {
+    color: #fff;
+    font-weight: 800;
+    max-width: 25ch;
+    text-align: center;
+    font-size: 4rem;
+    text-transform: uppercase;
+  }
+
+  .content p {
+    color: #fff;
+    font-size: 1.5rem;
+    font-weight: 500;
+    text-align: center;
+  }
+
+  .div-bnt{
+    display: flex;
+    gap: 20px;
+  }
+
+  @media screen and (max-width: 1040px) {
+    .content .title {
+      font-size: 3rem;
+    }
+    .content p {
+      font-size: 1.2rem;
     }
   }
 
-  @media (max-width: 820px){
-   h1{
-    font-size: 40px;
-   }
+  @media screen and (max-width: 640px) {
+    .content{
+      width: 95%;
+    }
+
+    .content .title {
+      font-size: 2.8rem;
+    }
+
+    .content .btn {
+      margin: 0.3rem;
+    }
+
+    .content p {
+      font-size: 1.4rem;
+    }
   }
-
-  @media (max-width: 450px){
-   h1{
-    font-size: 30px;
-    padding: 5px;
-   }
-
-   p{
-   display: none;
-   }
-  }
-`
-
-
-export const DivButtons = styled.div`
-display: flex;
-gap: 40px;
-`
+`;
