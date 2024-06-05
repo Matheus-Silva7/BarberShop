@@ -11,7 +11,6 @@ export const HeaderContent = styled.div`
   display: flex;
   align-items: center;
   justify-content: space-between;
-  padding: 10px;
 
   .menu-mobile {
     display: none;
@@ -20,6 +19,7 @@ export const HeaderContent = styled.div`
   .logo {
     width: 8rem;
     z-index:10;
+    padding: 10px;
   }
 
   @media (max-width: 820px) {
@@ -45,6 +45,7 @@ export const HeaderContent = styled.div`
 export const Nav = styled.nav`
   display: flex;
   gap: 25px;
+  padding: 10px;
 
   a {
     text-decoration: none;
