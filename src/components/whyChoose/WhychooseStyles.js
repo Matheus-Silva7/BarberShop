@@ -9,6 +9,8 @@ export const SectionWhy = styled.section`
   padding: 40px;
 
   h2{
+    text-align: center;
+    padding: 12px;
     font-size: 48px;
     font-weight:800;
     text-transform: uppercase;

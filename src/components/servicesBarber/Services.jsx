@@ -1,12 +1,13 @@
 import ServicesItens from "./ServicesItens";
-import {SectionService, DivServices} from "./ServicesStyles";
-import adultHaircut from "../../assets/img/icons-services/adult-haircut.png"
-import kidsHaircut from "../../assets/img/icons-services/kids-haircut.png"
-import beardTrim from "../../assets/img/icons-services/beard-trim.png"
-import neckShave from "../../assets/img/icons-services/neck-shave.png"
-import scalpMoisturizing from "../../assets/img/icons-services/scalp-moisturizing.png"
-import beardGrooming from "../../assets/img/icons-services/bearb-grooming.png"
-import ButtonMain from "../buttons/ButtonMain"
+import { SectionService, DivServices } from "./ServicesStyles";
+import adultHaircut from "../../assets/img/icons-services/adult-haircut.png";
+import kidsHaircut from "../../assets/img/icons-services/kids-haircut.png";
+import beardTrim from "../../assets/img/icons-services/beard-trim.png";
+import neckShave from "../../assets/img/icons-services/neck-shave.png";
+import scalpMoisturizing from "../../assets/img/icons-services/scalp-moisturizing.png";
+import beardGrooming from "../../assets/img/icons-services/bearb-grooming.png";
+import ButtonMain from "../buttons/ButtonMain";
+import ScrollAnimation from "react-animate-on-scroll";
 
 const listServices = [
   {
@@ -62,18 +63,28 @@ const listServices = [
 function Services() {
   return (
     <SectionService id="services" className="hidden">
-      <h2>Browse our services</h2>
-      <p>
-        Nulla egestas sapien integer mi fermentum tellus tristique consequat
-        pulvinar sagittis adipiscing egestas purus et mi tempus semper id vel
-        prci eu magna in senectus sit eget justo eget.
-      </p>
+      <ScrollAnimation animateIn="fadeIn">
+        <h2>Browse our services</h2>
+        <p>
+          Nulla egestas sapien integer mi fermentum tellus tristique consequat
+          pulvinar sagittis adipiscing egestas purus et mi tempus semper id vel
+          prci eu magna in senectus sit eget justo eget.
+        </p>
+      </ScrollAnimation>
       <DivServices>
-      {listServices.map(({ id, image, titleService, descService, priceService }) => (
-        <ServicesItens key={id} icon={image} title={titleService} desc={descService} price={priceService} />
-      ))}
+        {listServices.map(
+          ({ id, image, titleService, descService, priceService }) => (
+            <ServicesItens
+              key={id}
+              icon={image}
+              title={titleService}
+              desc={descService}
+              price={priceService}
+            />
+          )
+        )}
       </DivServices>
-      <ButtonMain/>
+      <ButtonMain />
     </SectionService>
   );
 }
