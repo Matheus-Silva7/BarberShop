@@ -11,6 +11,7 @@ export const HeaderContent = styled.div`
   display: flex;
   align-items: center;
   justify-content: space-between;
+  padding: 10px;
 
   .menu-mobile {
     display: none;
@@ -18,7 +19,6 @@ export const HeaderContent = styled.div`
 
   .logo {
     width: 8rem;
-    padding: 10px;
     z-index:10;
   }
 
@@ -62,7 +62,7 @@ export const Nav = styled.nav`
     position: absolute;
     bottom: 0;
     left: 0;
-    transition: width 0.3s ease-in-out; /* Corrigi a propriedade de transição aqui */
+    transition: width 0.3s ease-in-out;
   }
 
   a:hover::after {
@@ -80,9 +80,9 @@ export const Nav = styled.nav`
     align-items: center;
     justify-content: center;
     z-index: 2;
-    transition: 1s;
+    transition: 0.5s;
 
-    .active{
+    &.active{
       top:0;
     }
   }

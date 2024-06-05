@@ -72,4 +72,16 @@ export const DivSlogan = styled.div`
       font-size: 1.4rem;
     }
   }
+
+  @media screen and (max-width: 400px) {
+    .content .title {
+      font-size: 2.4rem;
+    }
+  }
+
+  @media screen and (max-width: 340px) {
+    .content .title {
+      font-size: 2.2rem;
+    }
+  }
 `;

@@ -23,6 +23,11 @@ export const ButtonM = styled.a`
     padding: 16px;
     font-size: 12px;
    }
+
+   @media screen and (max-width: 340px) {
+    padding: 13px;
+   font-size: 10px;
+  }
   `
 
 export const ButtonS = styled.a`
@@ -47,5 +52,10 @@ export const ButtonS = styled.a`
   @media (max-width:450px){
    padding: 16px;
    font-size: 12px;
+  }
+
+  @media screen and (max-width: 340px) {
+    padding: 13px;
+   font-size: 10px;
   }
   `;
