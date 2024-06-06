@@ -51,7 +51,6 @@ export const HeaderContent = styled.div`
 export const Nav = styled.nav`
   display: flex;
   gap: 25px;
-  padding: 10px;
 
   a {
     text-decoration: none;
