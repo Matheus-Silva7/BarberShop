@@ -1,7 +1,9 @@
 import styled from 'styled-components';
 
 export const SectionReview = styled.section`
+max-width: 1200px;
 display: flex;
+flex-direction: column;
 justify-content: space-evenly;
 align-items: center;
 margin: 70px 40px;

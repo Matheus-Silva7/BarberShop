@@ -1,9 +1,8 @@
 import React from "react";
-import IntroImg from "../../assets/background-header.svg";
+import IntroImg from "../../assets/background-header.jpg";
 import { DivSlogan } from "./SloganStyles";
 import ButtonMain from "../buttons/ButtonMain";
 import ButtonSecond from "../buttons/ButtonSecond";
-import ScrollAnimation from "react-animate-on-scroll";
 import { TypeAnimation } from "react-type-animation";
 
 const SloganHeader = () => {

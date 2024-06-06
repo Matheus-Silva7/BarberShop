@@ -5,7 +5,7 @@ import { DivCard } from "./ReviewStyles";
 
 function GoogleCard() {
   return (
-    <ScrollAnimation animateIn="bounceInRight" animateOut="bounceOutLeft">
+    <ScrollAnimation animateIn="bounceInRight">
       <DivCard>
         <img className="logo-icon" src={GoogleIcon} alt="" />
         <h3>Google</h3>

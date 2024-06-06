@@ -5,7 +5,7 @@ import ScrollAnimation from "react-animate-on-scroll";
 
 function TripadCard() {
   return (
-    <ScrollAnimation animateIn="bounceInRight" animateOut="bounceOutLeft">
+    <ScrollAnimation animateIn="bounceInRight">
       <DivCard>
         <img src={TripadIcon} alt="" />
         <h3>tripadvisor</h3>

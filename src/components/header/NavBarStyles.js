@@ -1,10 +1,16 @@
 import styled from "styled-components";
 
 export const HeaderContainer = styled.header`
-  background-color: #000;
+  background-color: transparent;
+  position: absolute;
   height: auto;
   width: 100%;
   z-index: 3;
+
+  @media (max-width: 820px){
+    background-color: #000;
+    position: initial;
+  }
 `;
 
 export const HeaderContent = styled.div`

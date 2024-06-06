@@ -6,7 +6,7 @@ export const DivSlogan = styled.div`
 
   .into-img {
     width: 100%;
-    height: 80vh;
+    height: 90vh;
     background-size: cover;
     background-position: center;
     object-fit: cover;
@@ -52,6 +52,10 @@ export const DivSlogan = styled.div`
     }
     .content p {
       font-size: 1.2rem;
+    }
+
+    .into-img {
+    height: 80vh;
     }
   }
 

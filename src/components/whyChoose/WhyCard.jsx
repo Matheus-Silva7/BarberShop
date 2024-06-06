@@ -4,8 +4,7 @@ import { CardDiv } from "./WhychooseStyles";
 function WhyCard({ image, title, desc }) {
   return (
     <>
-      <ScrollAnimation animateIn='bounceInRight'
-  animateOut='bounceOutLeft'>
+      <ScrollAnimation animateIn='bounceInRight'>
         <CardDiv>
           <img src={image} alt="" />
           <h3>{title}</h3>
