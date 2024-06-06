@@ -11,6 +11,8 @@ export const SectionContact = styled.section`
   align-items: center;
   padding: 50px;
 
+ 
+
 
   @media (max-width: 820px){
    height: auto;

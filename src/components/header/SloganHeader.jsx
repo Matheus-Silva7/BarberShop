@@ -1,5 +1,5 @@
 import React from "react";
-import IntroImg from "../../assets/background-header.jpg";
+import IntroImg from "../../assets/img/backgrounds/background-header.jpg";
 import { DivSlogan } from "./SloganStyles";
 import ButtonMain from "../buttons/ButtonMain";
 import ButtonSecond from "../buttons/ButtonSecond";
