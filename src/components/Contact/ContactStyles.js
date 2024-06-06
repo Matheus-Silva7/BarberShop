@@ -31,7 +31,7 @@ export const DivContactText = styled.div`
   gap: 30px;
 
   h2{
-    font-size: 48px;
+    font-size: 40px;
     text-transform: uppercase;
     font-weight: 800;
   }
@@ -43,6 +43,7 @@ export const DivContactText = styled.div`
 
   @media (max-width: 820px){
   width: 100%
+
   }
 `
 export const DivInfoContact = styled.div`
