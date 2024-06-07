@@ -5,7 +5,7 @@ import { SectionAbout, DivTextAbout, DivInfos } from "./AboutStyles";
 function AboutUs() {
   return (
     <SectionAbout id="about-us">
-      <ScrollAnimation animateIn="bounceInLeft" animateOut="bounceOutLeft">
+      <ScrollAnimation animateIn="bounceInLeft">
         <DivTextAbout className="about-item item">
           <h2>Your personal barber service at your home</h2>
           <p>
@@ -29,7 +29,7 @@ function AboutUs() {
           </DivInfos>
         </DivTextAbout>
       </ScrollAnimation>
-      <ScrollAnimation animateIn="bounceInRight" animateOut="bounceOutRight">
+      <ScrollAnimation animateIn="bounceInRight">
         <img
           src={imgThumbnail}
           alt="Image barbershop thumbnail"

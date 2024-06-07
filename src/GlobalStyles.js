@@ -12,6 +12,7 @@ html{
     box-sizing: border-box;
     background-color: #F8F5EF;
     font-family: "Barlow", sans-serif;
+    overflow-x: hidden;
   }
 
   h1,h2,h3,h4,h5,h6,p{
