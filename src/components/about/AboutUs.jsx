@@ -5,7 +5,7 @@ import { SectionAbout, DivTextAbout, DivInfos } from "./AboutStyles";
 function AboutUs() {
   return (
     <SectionAbout id="about-us">
-      <ScrollAnimation animateIn="bounceInLeft">
+      <ScrollAnimation animateIn="bounceInRight">
         <DivTextAbout className="about-item item">
           <h2>Your personal barber service at your home</h2>
           <p>
